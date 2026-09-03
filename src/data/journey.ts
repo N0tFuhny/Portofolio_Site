@@ -1,0 +1,8 @@
+export const journey = [
+  { id: "fundamentals", step: "01", title: "ML & deep learning fundamentals", description: "Building a reliable foundation in data preparation, model training, and evaluation.", skills: ["Python", "scikit-learn", "TensorFlow"], projectSlug: "flower-classification" },
+  { id: "vision", step: "02", title: "Computer vision & transfer learning", description: "Learning how pretrained representations can become useful, portable image models.", skills: ["CNN", "MobileNetV2", "Data augmentation"], projectSlug: "flower-classification" },
+  { id: "systems", step: "03", title: "End-to-end AI engineering", description: "Moving from notebooks toward repeatable pipelines, inference logic, and model artifacts.", skills: ["Feature engineering", "Serialization", "TensorBoard"], projectSlug: "sleep-quality-prediction" },
+  { id: "integration", step: "04", title: "Serving & cross-functional integration", description: "Connecting model behavior to clear data contracts and a FastAPI inference prototype.", skills: ["FastAPI", "REST APIs", "Team collaboration"], projectSlug: "sleep-quality-prediction" },
+  { id: "research", step: "05", title: "Deep learning research for cybersecurity", description: "Investigating recall-oriented intrusion detection with structured, explainable evaluation.", skills: ["PyTorch", "CNN / LSTM", "ROC-AUC"], projectSlug: "cyber-threat-detection" },
+  { id: "next", step: "06", title: "Continuing toward production AI", description: "Growing toward robust, observable AI systems while staying curious and grounded in evidence.", skills: ["MLOps direction", "Responsible AI", "Continuous learning"] },
+];
