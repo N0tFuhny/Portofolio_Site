@@ -1,178 +1,161 @@
-# AI Engineer Portfolio
+# Rizky Abdillah | AI Engineer Portfolio
 
-A focused portfolio for a Computer Science student pursuing a career in **AI Engineering**.
+This repository contains a personal portfolio website built to present my work as a Computer Science student focused on AI Engineering. The site highlights practical projects in deep learning, computer vision, cybersecurity research, and project coordination, with a structure designed to be easy to read for recruiters, collaborators, and technical reviewers.
 
-This site is designed to show the progression from learning machine learning and deep learning fundamentals to building practical AI systems, evaluating models responsibly, integrating inference APIs, and collaborating across technical teams.
+The portfolio is built with Next.js and TypeScript, and it is centered around project evidence, technical storytelling, and a clear progression from learning to applied AI engineering.
 
-> The portfolio presents academic, capstone, research, and project-based experience honestly. It does not claim professional production experience that has not happened.
+## Portfolio focus
 
-## What this portfolio demonstrates
+This project demonstrates:
 
-- Practical machine learning and deep learning development
+- Machine learning and deep learning workflows
 - Computer vision and transfer learning
-- End-to-end preprocessing, training, evaluation, and inference workflows
-- Model serving through a FastAPI inference prototype
-- Research-oriented evaluation for cybersecurity
-- Threshold tuning, ROC-AUC, precision-recall, confusion matrices, and false-negative analysis
-- Model export for SavedModel, TensorFlow Lite, and TensorFlow.js
-- Cross-functional communication and technical project coordination
+- Model evaluation with accuracy, loss, ROC, confusion matrices, and threshold analysis
+- Feature engineering and preprocessing for tabular and image data
+- Inference prototypes and deployment-oriented thinking
+- Responsible AI evaluation, especially in high-impact security contexts
+- Cross-functional AI engineering communication and project coordination
 
-## Featured work
+## Featured projects
 
-### Cyber Threat Detection Using Deep Learning
+### 1. Cyber Threat Detection Using Deep Learning
 
-Thesis/research project using the Improved CICIDS2017 dataset for binary classification of benign and malicious network traffic. The work compares a Logistic Regression baseline with CNN and LSTM approaches and emphasizes recall-aware evaluation, threshold tuning, and explainability experimentation.
+Research-driven intrusion detection project using the Improved CICIDS2017 dataset for binary classification of benign and malicious network traffic. The project emphasizes false-negative-aware evaluation, threshold tuning, and explainable performance reporting.
 
-**Technologies:** Python, PyTorch, scikit-learn, Pandas, NumPy, CNN, LSTM
+Key focus:
 
-### Sleep Quality Prediction System
+- Logistic Regression baseline comparison
+- CNN and LSTM model experiments
+- ROC-AUC and confusion-matrix evaluation
+- Recall-sensitive model reasoning
+- Real evaluation trade-offs instead of relying only on headline accuracy
 
-GizGOAT capstone project that predicts sleep quality from health and lifestyle information. The project covers preprocessing, feature engineering, TensorFlow model development, custom training experiments, model serialization, TensorBoard logging, and a FastAPI inference prototype.
+### 2. Sleep Quality Prediction System
 
-**Technologies:** Python, TensorFlow, Keras, scikit-learn, Pandas, FastAPI, TensorBoard
+A capstone-style AI engineering project that predicts sleep quality from health and lifestyle data. The project includes preprocessing, feature engineering, TensorFlow modeling, model serialization, and a FastAPI-based inference prototype.
 
-### Flower Image Classification with MobileNetV2
+Key focus:
 
-A computer vision project using transfer learning on 3,000+ flower images across five classes. The model reached approximately 89.75% test accuracy and was exported into formats suitable for different runtime environments.
+- Data cleaning and schema alignment
+- Feature scaling and preparation
+- Neural network model development
+- Model evaluation and custom training logic
+- Inference prototype for practical usage
 
-**Technologies:** TensorFlow, Keras, MobileNetV2, transfer learning, TensorFlow Lite, TensorFlow.js
+### 3. Flower Image Classification with MobileNetV2
 
-### Digitalization Project Management
+A computer vision project using transfer learning on more than 3,000 flower images across five classes. The model is exported into multiple runtime-friendly formats, showing attention to deployment-oriented AI work beyond a single notebook output.
 
-Supporting project-management experience covering scope definition, project planning, progress tracking, risk management, milestone coordination, weekly reporting, and cross-functional communication.
+Key focus:
 
-## Technology stack
+- Transfer learning with MobileNetV2
+- Image preprocessing and augmentation
+- Train-validation-test splitting
+- Evaluation with accuracy and loss curves
+- Model export to SavedModel, TensorFlow Lite, and TensorFlow.js
 
-- **Framework:** Next.js 14, React 18
-- **Language:** TypeScript
-- **Styling:** CSS design tokens and responsive CSS
-- **Architecture:** Next.js App Router, static generation, reusable data-driven components
-- **Runtime:** Node.js and npm
-- **Deployment:** Not configured; the project is intentionally local and ready for future hosting
+### 4. Digitalization Project Management
 
-## Site features
+A supporting project-management experience focused on planning, scope definition, milestones, risk tracking, and communication. This section reflects the operational side of technical delivery and project coordination.
 
-- Responsive homepage for mobile, tablet, and desktop
-- Sticky navigation with an accessible mobile menu
-- Dark and light themes with local persistence
-- AI Engineering journey timeline
-- Selected project cards with technical metrics
-- Dynamic project case studies at `/projects/[slug]`
-- Reusable workflow visualizations
-- Skills grouped by evidence-oriented categories
-- Project-based experience section
-- SEO metadata and Open Graph configuration
-- Reduced-motion support
-- Centralized Three-Color design system: Dark Ash, adaptive Blue, and Ash Grey
+Key focus:
 
-## Getting started
+- Public service website structure
+- Admin content management workflow
+- Mobile-first UI design
+- Stakeholder communication and reporting
+- Planning and milestone coordination
+
+## Technical stack
+
+- Next.js 14
+- React 18
+- TypeScript
+- CSS design system and responsive UI styling
+- App Router architecture
+- Node.js and npm
+
+## Project structure
+
+```text
+Portofolio_Site/
+├── src/
+│   ├── app/
+│   │   ├── globals.css
+│   │   ├── layout.tsx
+│   │   ├── page.tsx
+│   │   └── projects/[slug]/page.tsx
+│   ├── components/
+│   │   └── Portfolio.tsx
+│   └── data/
+│       ├── journey.ts
+│       ├── profile.ts
+│       └── projects.ts
+├── public/
+│   ├── cv/
+│   │   └── resume.pdf
+│   ├── cyber-threat-detection/
+│   ├── sleep-quality-prediction/
+│   ├── flower-classification/
+│   └── digitalization-project-management/
+├── package.json
+├── next.config.mjs
+├── tsconfig.json
+├── README.md
+├── .gitignore
+└── next-env.d.ts
+```
+
+## Local development
 
 ### Requirements
 
 - Node.js 18.17 or newer
 - npm
 
-### Install and run locally
+### Install dependencies
 
 ```bash
 npm install
+```
+
+### Run the app locally
+
+```bash
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+Then open:
 
-### Create a production build
+```text
+http://localhost:3000
+```
+
+### Production build
 
 ```bash
 npm run build
 npm run start
 ```
 
-## Project structure
+## Design and presentation
 
-```text
-src/
-├── app/
-│   ├── globals.css
-│   ├── layout.tsx
-│   ├── page.tsx
-│   └── projects/[slug]/page.tsx
-├── components/
-│   └── Portfolio.tsx
-└── data/
-    ├── journey.ts
-    ├── profile.ts
-    └── projects.ts
-public/
-└── cv/
-    └── resume.pdf
-```
+The portfolio is intentionally designed to feel professional, calm, and technically focused rather than overly flashy. It emphasizes:
 
-## Customizing the portfolio
+- Clear project storytelling
+- Evidence-based machine learning presentation
+- Good readability on desktop and mobile
+- Structured project cards and case-study pages
+- Consistent visual hierarchy and accessible layout
 
-### Update personal information
+## Notes on authenticity
 
-Edit `src/data/profile.ts` and replace:
+This portfolio is built to present actual project work in a credible and honest way. It uses project evidence, technical summaries, and model narratives that reflect real project activities and evaluation patterns rather than generic template content.
 
-- `YOUR_NAME`
-- `YOUR_EMAIL`
-- `YOUR_GITHUB_URL`
-- `YOUR_LINKEDIN_URL`
-- `YOUR_LOCATION`
+## Author
 
-The same placeholder name also appears in the page metadata, navigation brand, and footer.
+Rizky Abdillah
 
-### Add or update a project
-
-Edit `src/data/projects.ts`. Each project provides its own:
-
-- Summary and role
-- Project type and category
-- Problem statement
-- Responsibilities and technical approach
-- Technologies
-- Metrics
-- Challenges and solutions
-- Lessons learned
-- Workflow stages
-- GitHub link
-- Evidence placeholders
-
-Adding a project to this data file automatically makes it available to the project grid and its dynamic case-study route.
-
-### Add your CV
-
-Replace `public/cv/resume.pdf` with the real resume PDF. The existing download button already points to `/cv/resume.pdf`.
-
-### Add project evidence
-
-Replace the evidence placeholders in `src/data/projects.ts` when screenshots, diagrams, evaluation charts, API examples, or project-management artifacts are ready. Do not add fabricated charts or results.
-
-### Modify the visual theme
-
-Update the CSS variables at the top of `src/app/globals.css`. The palette is intentionally centralized so the site can be restyled without changing every component.
-
-## Design principles
-
-The site is intentionally calm, technical, and recruiter-friendly rather than flashy. It uses:
-
-- Dark Ash as the structural neutral
-- Blue as a restrained interaction and emphasis color
-- Ash Grey for supporting text, borders, and metadata
-- CSS transitions instead of a heavy animation library
-- System fonts to avoid an external font request
-- Mobile-first layouts with no forced horizontal scrolling
-- Semantic sections and visible keyboard focus states
-
-## Current scope
-
-This repository is a frontend-only portfolio. It does not include:
-
-- A backend or database
-- Authentication
-- A contact-form service
-- Production model hosting
-- Automatic deployment
-- Fabricated personal information or achievements
-
-Future deployment can be added after personal content, CV, project links, and evidence assets have been reviewed.
+- GitHub: https://github.com/N0tFuhny
+- LinkedIn: https://www.linkedin.com/in/rzkyabdlh/
+- Email: risky1243@gmail.com
