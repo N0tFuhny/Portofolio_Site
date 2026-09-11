@@ -2,12 +2,12 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Rizky Abdillah — AI Engineer Portfolio",
+  title: "Muhammad Rizky Abdillah — Aspiring AI Engineer Portfolio",
   description: "An AI Engineering portfolio focused on practical machine learning systems, research, and thoughtful technical collaboration.",
   icons: {
     icon: "/icon.svg",
   },
-  openGraph: { title: "Rizky Abdillah — AI Engineer Portfolio", description: "Building my path toward AI Engineering.", type: "website" },
+  openGraph: { title: "Muhammad Rizky Abdillah — Aspiring AI Engineer Portfolio", description: "Building my path toward AI Engineering.", type: "website" },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

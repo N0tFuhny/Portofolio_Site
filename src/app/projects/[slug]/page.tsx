@@ -13,7 +13,7 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
     <>
       <header className="nav">
         <div className="container nav-inner">
-          <Link className="brand" href="/">Rizky<span>_</span>Abdillah</Link>
+          <Link className="brand" href="/">Rizky Abdillah</Link>
           <Link className="button button-secondary" href="/">← Back to portfolio</Link>
         </div>
       </header>
@@ -123,7 +123,8 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
               ))}
             </div>
 
-            <a className="button button-primary" style={{ marginTop: 28 }} href={project.githubUrl}>View GitHub ↗</a>
+            <a className="button button-primary" style={{ marginTop: 28 }} href={project.githubUrl}>GitHub ↗</a>
+            {project.demoUrl && <a className="button button-secondary" style={{ marginTop: 28 }} href={project.demoUrl}>Live Demo</a>}
           </div>
         </section>
       </main>

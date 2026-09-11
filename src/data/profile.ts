@@ -1,9 +1,9 @@
 export const profile = {
-  name: "Rizky Abdillah",
-  eyebrow: "Computer Science student · AI Engineering",
-  headline: "AI Engineering student building systems with measurable impact.",
+  name: "Muhammad Rizky Abdillah",
+  eyebrow: "Final-year Informatics Engineering student · Aspiring AI Engineer",
+  headline: "Building practical AI solutions.",
   intro:
-    "I’m a Computer Science student pursuing AI Engineering through machine learning, deep learning, and evaluation work that connects technical performance to real-world decisions and practical engineering outcomes.",
+    "Building practical AI solutions with a focus on thoughtful engineering, measurable results, and real-world applications.",
   email: "risky1243@gmail.com",
   github: "https://github.com/N0tFuhny",
   linkedin: "https://www.linkedin.com/in/rzkyabdlh/",

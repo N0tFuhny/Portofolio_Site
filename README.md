@@ -1,6 +1,6 @@
 # Rizky Abdillah | AI Engineer Portfolio
 
-This repository contains a personal portfolio website built to present my work as a Computer Science student focused on AI Engineering. The site highlights practical projects in deep learning, computer vision, cybersecurity research, and project coordination, with a structure designed to be easy to read for recruiters, collaborators, and technical reviewers.
+This repository contains a personal portfolio website built to present my work as a final-year Informatics Engineering student and aspiring AI Engineer. The site highlights practical projects in deep learning, computer vision, cybersecurity research, and project coordination, with a structure designed to be easy to read for recruiters, collaborators, and technical reviewers.
 
 The portfolio is built with Next.js and TypeScript, and it is centered around project evidence, technical storytelling, and a clear progression from learning to applied AI engineering.
 
@@ -18,53 +18,33 @@ This project demonstrates:
 
 ## Featured projects
 
-### 1. Cyber Threat Detection Using Deep Learning
+### 1. Deep Learning Intrusion Detection System
 
-Research-driven intrusion detection project using the Improved CICIDS2017 dataset for binary classification of benign and malicious network traffic. The project emphasizes false-negative-aware evaluation, threshold tuning, and explainable performance reporting.
+2026 | AI Developer
 
-Key focus:
+An AI-based cybersecurity project designed to detect malicious network traffic using structured network-flow data. The project implements an end-to-end workflow covering data preprocessing, model training, evaluation, and inference for automated cyber threat detection.
 
-- Logistic Regression baseline comparison
-- CNN and LSTM model experiments
-- ROC-AUC and confusion-matrix evaluation
-- Recall-sensitive model reasoning
-- Real evaluation trade-offs instead of relying only on headline accuracy
+### 2. GizGOAT Health Recommendation Platform
 
-### 2. Sleep Quality Prediction System
+Feb 2026 – July 2026 | AI Engineer & Project Manager
 
-A capstone-style AI engineering project that predicts sleep quality from health and lifestyle data. The project includes preprocessing, feature engineering, TensorFlow modeling, model serialization, and a FastAPI-based inference prototype.
+GizGOAT is an AI-integrated health recommendation platform designed to help users monitor health-related information and receive data-driven insights. As AI Engineer and Project Manager, I worked on the machine learning workflow, model integration, API development, and cross-functional project coordination.
 
-Key focus:
+Best model R² on test data: ≈ 0.69
 
-- Data cleaning and schema alignment
-- Feature scaling and preparation
-- Neural network model development
-- Model evaluation and custom training logic
-- Inference prototype for practical usage
+### 3. Flower Image Classification using MobileNetV2
 
-### 3. Flower Image Classification with MobileNetV2
+2025 | AI / Machine Learning Developer
 
-A computer vision project using transfer learning on more than 3,000 flower images across five classes. The model is exported into multiple runtime-friendly formats, showing attention to deployment-oriented AI work beyond a single notebook output.
+A deep learning image classification system developed to identify different flower categories using MobileNetV2 and transfer learning. The project demonstrates an end-to-end computer vision workflow from image preprocessing and augmentation to training, evaluation, and deployment.
 
-Key focus:
+Test accuracy: 89.75%; Dataset: 3,000+ images
 
-- Transfer learning with MobileNetV2
-- Image preprocessing and augmentation
-- Train-validation-test splitting
-- Evaluation with accuracy and loss curves
-- Model export to SavedModel, TensorFlow Lite, and TensorFlow.js
+### 4. Urban Village Digitalization Platform
 
-### 4. Digitalization Project Management
+2025 · Supporting experience | Web Developer
 
-A supporting project-management experience focused on planning, scope definition, milestones, risk tracking, and communication. This section reflects the operational side of technical delivery and project coordination.
-
-Key focus:
-
-- Public service website structure
-- Admin content management workflow
-- Mobile-first UI design
-- Stakeholder communication and reporting
-- Planning and milestone coordination
+A responsive digital platform designed to centralize public information, administrative services, news, and community activities for a local government office. The platform includes client-side content management, image uploads, live preview, LocalStorage persistence, and responsive design.
 
 ## Technical stack
 
