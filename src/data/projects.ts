@@ -57,7 +57,7 @@ export const projects: Project[] = [
     "evidence": [
       {
         "title": "Model dashboard",
-        "caption": "Interactive dashboard view for model monitoring and classification workflow evidence.",
+        "caption": "Desktop interface for network traffic classification.",
         "imageUrl": "/cyber-threat-detection/cyber-threat-detection-model-dashboard.JPG"
       },
       {
@@ -76,7 +76,7 @@ export const projects: Project[] = [
     "status": "Feb 2026 – July 2026",
     "role": "AI Engineer & Project Manager",
     "summary": "GizGOAT is an AI-integrated health recommendation platform designed to help users monitor health-related information and receive data-driven insights. As AI Engineer and Project Manager, I worked on the machine learning workflow, model integration, API development, and cross-functional project coordination.",
-    "problem": "How can a trained model remain reliable when different teams interpret the same health and lifestyle features in inconsistent ways?",
+    "problem": "Developing and integrating a deep learning-based sleep quality prediction system within a health recommendation platform.",
     "responsibilities": [
       "Led project planning and cross-functional coordination across AI, Data Science, Backend, and Frontend teams",
       "Designed and implemented end-to-end ML workflows covering preprocessing, training, evaluation, and deployment",
@@ -105,17 +105,16 @@ export const projects: Project[] = [
       }
     ],
     "challenges": [
-      "Feature representations were inconsistent across source data, such as blood pressure inputs and occupation categories",
-      "Schema drift between teams made alignment and preprocessing more difficult"
+      "Connecting model development with application integration and deployment",
+      "Coordinating work across AI, Data Science, Backend, and Frontend teams"
     ],
     "solutions": [
-      "Standardized a shared feature contract and API input format",
-      "Made categorical handling explicit during preprocessing",
-      "Used communication and documentation to reduce integration ambiguity"
+      "Built RESTful FastAPI services and managed encoders, scalers, and trained weights for deployment",
+      "Led project planning and cross-functional coordination using Git-based collaborative development practices"
     ],
     "lessons": [
-      "A useful model depends on a clear data contract as much as on a strong algorithm.",
-      "Cross-functional communication is an essential part of AI engineering, not a secondary task."
+      "The project covered preprocessing, training, evaluation, deployment, and REST API integration.",
+      "AI engineering work was supported by project planning and cross-functional collaboration."
     ],
     "workflow": [
       "Health data",
@@ -127,16 +126,17 @@ export const projects: Project[] = [
       "FastAPI integration"
     ],
     "githubUrl": "https://github.com/GizGoat-Capstone-2026",
+    "demoUrl": "https://gizgoat.vercel.app",
     "featured": true,
     "evidence": [
       {
         "title": "Dataset loading",
-        "caption": "Data ingestion and schema validation showing the raw dataset was successfully loaded into the training pipeline.",
+        "caption": "Dataset loading step in the sleep quality model development workflow.",
         "imageUrl": "/sleep-quality-prediction/sleep-quality-prediction-dataset_loaded.png"
       },
       {
         "title": "Train-test split",
-        "caption": "Evidence of the data split used to evaluate the model on unseen records with proper generalization checks.",
+        "caption": "Training and test data preparation for model evaluation.",
         "imageUrl": "/sleep-quality-prediction/sleep-quality-prediction-train-test-split.png"
       },
       {
@@ -146,7 +146,7 @@ export const projects: Project[] = [
       },
       {
         "title": "Scaling proof",
-        "caption": "Scaling validation showing the same feature distributions were normalized before inference and training.",
+        "caption": "Scaling step in the data preprocessing workflow.",
         "imageUrl": "/sleep-quality-prediction/sleep-quality-prediction-scaling_proof.png"
       },
       {
@@ -175,11 +175,11 @@ export const projects: Project[] = [
     "status": "2025",
     "role": "AI / Machine Learning Developer",
     "summary": "A deep learning image classification system developed to identify different flower categories using MobileNetV2 and transfer learning. The project demonstrates an end-to-end computer vision workflow from image preprocessing and augmentation to training, evaluation, and deployment.",
-    "problem": "How can a focused image project demonstrate real engineering thinking beyond a single notebook result?",
+    "problem": "Classifying flower images into multiple categories using MobileNetV2 transfer learning on 3,000+ images.",
     "responsibilities": [
       "Prepared 3,000+ flower images for multi-class classification",
       "Applied image preprocessing and data augmentation",
-      "Trained an ImageNet-pretrained MobileNetV2 with a custom classification head",
+      "Fine-tuned ImageNet-pretrained MobileNetV2 with a custom classification head",
       "Achieved 89.75% test accuracy and exported SavedModel, TFLite, and TensorFlow.js formats"
     ],
     "approach": [
@@ -205,15 +205,15 @@ export const projects: Project[] = [
       }
     ],
     "challenges": [
-      "Keeping preprocessing consistent across export targets",
-      "Avoiding overreliance on a single aggregate metric when class-level errors matter"
+      "Developing and evaluating a multi-class flower classification model",
+      "Preparing the trained model for deployment in multiple formats"
     ],
     "solutions": [
-      "Built a repeatable preprocessing pipeline",
-      "Reviewed confusion-matrix results and retained multiple deployment formats"
+      "Implemented data augmentation, MobileNetV2 transfer learning, Early Stopping, and learning-rate scheduling; achieved 89.75% test accuracy",
+      "Exported the model to TensorFlow SavedModel, TFLite, and TensorFlow.js"
     ],
     "lessons": [
-      "Model export is not a final step; it is a core engineering decision that determines where inference can run."
+      "The computer vision workflow covered data augmentation, training, evaluation, and model export for deployment."
     ],
     "workflow": [
       "Image dataset",
